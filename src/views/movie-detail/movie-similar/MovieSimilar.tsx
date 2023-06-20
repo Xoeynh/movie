@@ -59,8 +59,8 @@ function MovieSimilar(props: Props): React.ReactElement {
         initialNumToRender={6}
         showsHorizontalScrollIndicator={false}
         keyExtractor={(item, index) => String(index)}
-        data={props.movie}
         renderItem={renderItem}
+        data={props.movie}
       />
     </SafeAreaView>
   );
