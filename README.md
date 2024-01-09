@@ -10,22 +10,22 @@ Readme | [阿里字体图标](docs/iconfont.md) | [插件介绍](docs/plugin.md)
 
 ## 简介
 
-本项目是一个仿写[慕影网H5](https://github.com/NameLi/muying-h5)项目
+本项目是一个高仿[慕影网](https://github.com/NameLi/muying-h5)项目
 
-项目使用react-native-web实现web端应用，可查看[web-webpack分支](https://github.com/xlz122/react-native-movie/tree/web-webpack)
+使用react-native-web实现web端应用，可查看[web-webpack分支](https://github.com/xlz122/react-native-movie/tree/web-webpack)
 
 目前仅支持android端和web端，ios端未适配
 
 ## 项目使用技术栈
 
 * React
-* React Native 0.73.1
+* React Native 0.73.2
 * Redux
 * Typescript
 
 ## 加入项目
 
-如果想加入本项目开发，需将项目fork到自己的仓库下，功能开发完成后，提PR即可
+如果想加入本项目开发，需将项目fork到自己的仓库下，功能开发完成后，提PR即可。
 
 ## 运行
 
@@ -37,6 +37,8 @@ yarn install
 
 ```
 yarn start
+
+yarn start --experimental-debugger
 ```
 
 ```
