@@ -29,7 +29,7 @@ function SearchHistory(props: Props): React.ReactElement {
         type: 'routine/setSearchHistory',
         payload: history
       });
-      return false;
+      return;
     }
 
     // 搜索
